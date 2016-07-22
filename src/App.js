@@ -10,8 +10,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>nteract coverpage</h2>
         </div>
-        <p className="App-intro">
+        <h3 className="App-intro">
           Prototype <i>mashup</i> of
+        </h3>
 
           <ul style={{padding: '10px'}}>
             <li>remote jupyter kernels</li>
@@ -19,6 +20,7 @@ class App extends Component {
             <li>nteract react components</li>
           </ul>
 
+        <p>
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
