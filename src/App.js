@@ -8,9 +8,17 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>nteract coverpage</h2>
         </div>
         <p className="App-intro">
+          Prototype <i>mashup</i> of
+
+          <ul style={{padding: '10px'}}>
+            <li>remote jupyter kernels</li>
+            <li>gists for storage</li>
+            <li>nteract react components</li>
+          </ul>
+
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
